@@ -3,9 +3,9 @@
 ### Day 0: August 11, 2018
 #####
 
-**Today's Progress**: .
+**Today's Progress**: Basic chat system PHP & AJAX.
 
-**Thoughts:** .
+**Thoughts:** First day of the challenge. Very motivated.
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [Chat System ](https://github.com/jlferrete/100-days-of-code/tree/master/ChatEN)
 
