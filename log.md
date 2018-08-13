@@ -16,5 +16,14 @@
 
 **Thoughts:** A lot of problems with WampServer. Installed MAMP.
 
-**Link to work:** [Chat System ](https://github.com/jlferrete/100-days-of-code/tree/master/CRUD%20PHP-MySQL)
+**Link to work:** [Basic CRUD ](https://github.com/jlferrete/100-days-of-code/tree/master/CRUD%20PHP-MySQL)
+
+### Day 3: August 13, 2018
+#####
+
+**Today's Progress**: Initial configuration of Symfony3 social network course.
+
+**Thoughts:** Installed without problems.
+
+**Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
 
