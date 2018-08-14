@@ -27,3 +27,12 @@
 
 **Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
 
+### Day 4: August 14, 2018
+#####
+
+**Today's Progress**: Section 5 lesson 15 done. Routing and Controllers.
+
+**Thoughts:** Problems are not stop signs, they are guidelines.
+
+**Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
+
