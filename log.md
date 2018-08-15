@@ -36,3 +36,12 @@
 
 **Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
 
+### Day 5: August 15, 2018
+#####
+
+**Today's Progress**: Section 5 lesson 19 done. Header and menus.
+
+**Thoughts:** Believe you can and you’re halfway there.
+
+**Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
+
