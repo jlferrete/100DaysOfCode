@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            {% block title %} SF3 NETWORK {% endblock %}
+        </title>
+
+        {% block stylesheets %} 
+           <!-- Incluir estilos CSS -->
+        {% endblock %}
+            
+        {% block javascripts %} 
+            <!-- Incluir javascript -->
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <h1>SOCIAL NETWORK</h1>
+        </header>
+        <section id="content">
+            {% block content %}
+                Content default
+            {% endblock %}
+        </section>
+        <footer>
+            <hr/>
+            <p>Desarrollar una red social con Symfony 3 - JlFerrete</p>
+        </footer>
+    </body>
+</html>
+

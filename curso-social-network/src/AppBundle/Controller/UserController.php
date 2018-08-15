@@ -10,7 +10,8 @@ class UserController extends Controller{
 	
 		public function loginAction(Request $request){
 		
-		echo "Accion Login";
-		die();
+			return $this->render('AppBundle:User:login.html.twig', array(
+				"titulo" => "Prueba"
+			));
 	}
 }
