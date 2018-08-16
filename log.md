@@ -45,3 +45,12 @@
 
 **Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
 
+### Day 6: August 16, 2018
+#####
+
+**Today's Progress**: Section 6 lesson 21 done. Encoders and Forms.
+
+**Thoughts:** Only I can change my life. No one can do it for me.
+
+**Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
+
