@@ -54,3 +54,14 @@
 
 **Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
 
+### Day 7: August 17, 2018
+#####
+
+**Today's Progress**: Section 6 lesson 24 done. Register and Flash messages.
+
+**Thoughts:** Warning: session_cache_limiter(): Cannot change cache limiter when session is active 
+Recieved due to PHP 7.2. Solution: Downgrade PHP to 7.1.7
+https://stackoverflow.com/questions/47700336/php-7-2-warning-cannot-change-session-name-when-session-is-active
+
+**Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
+
