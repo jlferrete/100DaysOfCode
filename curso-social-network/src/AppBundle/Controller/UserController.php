@@ -20,6 +20,9 @@ class UserController extends Controller{
 	}
 	
 	public function loginAction(Request $request){
+		if(is_object($this->getUser())){
+			return $this->redirect('home');
+		}
 		
 			$authenticationUtils = $this->get('security.authentication_utils');
 			$error = $authenticationUtils->getLastAuthenticationError();
@@ -33,6 +36,10 @@ class UserController extends Controller{
 	}
 	
 	public function registerAction(Request $request){
+		if(is_object($this->getUser())){
+			return $this->redirect('home');
+		}
+		
 		
 		$user = new User();
 		$form = $this->createForm(RegisterType::class, $user);
