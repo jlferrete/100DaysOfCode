@@ -65,3 +65,14 @@ https://stackoverflow.com/questions/47700336/php-7-2-warning-cannot-change-sessi
 
 **Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
 
+### Day 8: August 18, 2018
+#####
+
+**Today's Progress**: Section 6 lesson 26 done. Check nick with AJAX and Authentication.
+
+**Thoughts:** Error: Class BackendBundle\Entity\User contains 1 abstract method and must therefore be declared abstract
+Need to create public function eraseCredentials() 
+https://stackoverflow.com/questions/18631382/symfony2-fatal-error-in-users-entity-provider
+
+**Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
+
