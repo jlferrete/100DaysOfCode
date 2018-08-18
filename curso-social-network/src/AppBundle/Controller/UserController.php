@@ -114,4 +114,12 @@ class UserController extends Controller{
 		
 		return new Response($result);
 	}
+	
+	public function editUserAction(Request $request){
+		
+		return $this->render('AppBundle:User:edit_user.html.twig', array(
+				
+			));
+		
+	}
 }
