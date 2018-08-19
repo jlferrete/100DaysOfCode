@@ -78,5 +78,16 @@ https://stackoverflow.com/questions/18631382/symfony2-fatal-error-in-users-entit
 
 **Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
 
+### Day 9: August 19, 2018
+#####
+
+**Today's Progress**: Section 7 finished. My-data pages done with all functionalities.
+
+**Thoughts:** Unable to guess the mime type as no guessers are available (Did you enable the php_fileinfo extension?)
+Need to enable extension into php.ini 
+https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
+
+**Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
+
  
 
