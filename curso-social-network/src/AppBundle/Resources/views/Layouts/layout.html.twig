@@ -7,11 +7,11 @@
         </title>
 
         {% block stylesheets %} 
-           <link href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" />
-           <link href="{{ asset('assets/css/bootstrap.cosmo.min.css') }}" type="text/css" rel="stylesheet" />
-           <link href="{{ asset('assets/css/styles.css') }}" type="text/css" rel="stylesheet" />
+            <link href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" />
+            <link href="{{ asset('assets/css/bootstrap.cosmo.min.css') }}" type="text/css" rel="stylesheet" />
+            <link href="{{ asset('assets/css/styles.css') }}" type="text/css" rel="stylesheet" />
         {% endblock %}
-            
+
         {% block javascripts %}
             <script type="text/javascript">
                 var URL = "{{ app.request.getSchemeAndHttpHost() }}/100-days-of-code/curso-social-network/web/app_dev.php";
@@ -36,7 +36,7 @@
                             NETWORK
                         </a>
                     </div>
-                            
+
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             {% if app.user == null %}    
@@ -56,14 +56,22 @@
                                 </li>
                             {% endif %}
                         </ul>
-                                    
+
                         {% if app.user != null %}
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        
-                                    {{app.user.name}} {{app.user.surname}} 
-                                    <span class="caret"></span>
+
+                                        <div class="avatar">
+                                            {%if app.user.image == null %}
+                                                <img src="{{ asset('assets/images/default.png')}}" />   
+                                                {%else%}
+                                                    <img src="{{ asset('uploads/users/'~app.user.image)}}" />
+                                            {%endif%}
+                                        </div>
+
+                                        {{app.user.name}} {{app.user.surname}} 
+                                        <span class="caret"></span>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -103,7 +111,7 @@
             </nav>
         </header>
         <section id="content">
-            
+
             <div class="container">
                 <div class="col-lg-11">
                     {%for message in app.session.flashbag().get('status')%}
@@ -111,8 +119,8 @@
                     {%endfor%}    
                 </div>
             </div>
-                <div class="clearfix"></div>
-            
+            <div class="clearfix"></div>
+
             {% block content %}
                 Content default
             {% endblock %}
