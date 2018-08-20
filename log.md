@@ -89,5 +89,14 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Symfony3 social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-social-network)
 
+### Day 10: August 20, 2018
+#####
+
+**Today's Progress**: New project: Mean Stack social network
+
+**Thoughts:** Starting new project
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
  
 
