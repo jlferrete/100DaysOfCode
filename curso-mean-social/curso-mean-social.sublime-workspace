@@ -3,16 +3,28 @@
 	{
 		"selected_items":
 		[
+			[
+				"u",
+				"use"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "api/package.json",
+			"file": "api/index.js",
 			"settings":
 			{
-				"buffer_size": 561,
-				"line_ending": "Unix"
+				"buffer_size": 519,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/app.js",
+			"settings":
+			{
+				"buffer_size": 518,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -40,6 +52,8 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/package.json",
+		"/C/wamp/www/100-days-of-code/log.md"
 	],
 	"find":
 	{
@@ -74,30 +88,54 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "api/package.json",
+					"file": "api/index.js",
 					"settings":
 					{
-						"buffer_size": 561,
+						"buffer_size": 519,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								561,
-								561
+								217,
+								242
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "api/app.js",
+					"settings":
+					{
+						"buffer_size": 518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
