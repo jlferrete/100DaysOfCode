@@ -107,3 +107,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
 
+ ### Day 12: August 22, 2018
+#####
+
+**Today's Progress**: Starting API RESTful Backend and desing MVC. 
+
+**Thoughts:** With the new day comes new strength and new thoughts.
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
