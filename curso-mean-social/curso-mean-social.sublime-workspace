@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Messa",
+				"MessageSchema"
+			],
+			[
+				"Foll",
+				"FollowSchema"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"m",
+				"mongoose"
+			],
+			[
 				"u",
 				"use"
 			]
@@ -24,6 +40,38 @@
 			"settings":
 			{
 				"buffer_size": 518,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/models/user.js",
+			"settings":
+			{
+				"buffer_size": 278,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/models/publication.js",
+			"settings":
+			{
+				"buffer_size": 282,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/models/follow.js",
+			"settings":
+			{
+				"buffer_size": 265,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/models/message.js",
+			"settings":
+			{
+				"buffer_size": 306,
 				"line_ending": "Windows"
 			}
 		}
@@ -52,6 +100,7 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/follow.js",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/package.json",
 		"/C/wamp/www/100-days-of-code/log.md"
 	],
@@ -88,7 +137,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -129,8 +178,112 @@
 						"selection":
 						[
 							[
-								355,
-								355
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "api/models/user.js",
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "api/models/publication.js",
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "api/models/follow.js",
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "api/models/message.js",
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
 							]
 						],
 						"settings":
@@ -152,7 +305,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
