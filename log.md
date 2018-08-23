@@ -116,3 +116,11 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
 
+ ### Day 13: August 23, 2018
+#####
+
+**Today's Progress**: User Controller done, Registering users in DB. 
+
+**Thoughts:** Life is 10% what happens to you and 90% how you react to it.
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)

@@ -39,8 +39,32 @@
 			"file": "api/app.js",
 			"settings":
 			{
-				"buffer_size": 518,
+				"buffer_size": 351,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/controllers/user.js",
+			"settings":
+			{
+				"buffer_size": 1167,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/routes/user.js",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/100-days-of-code/log.md",
+			"settings":
+			{
+				"buffer_size": 4438,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -100,9 +124,10 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/user.js",
+		"/C/wamp/www/100-days-of-code/log.md",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/follow.js",
-		"/C/wamp/www/100-days-of-code/curso-mean-social/api/package.json",
-		"/C/wamp/www/100-days-of-code/log.md"
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/package.json"
 	],
 	"find":
 	{
@@ -137,7 +162,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -171,15 +196,68 @@
 					"file": "api/app.js",
 					"settings":
 					{
-						"buffer_size": 518,
+						"buffer_size": 351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								394,
-								394
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "api/controllers/user.js",
+					"settings":
+					{
+						"buffer_size": 1167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1016,
+								1016
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 36.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "api/routes/user.js",
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
 							]
 						],
 						"settings":
@@ -193,7 +271,33 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
+					"file": "/C/wamp/www/100-days-of-code/log.md",
+					"settings":
+					{
+						"buffer_size": 4438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4314,
+								4314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2280.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "api/models/user.js",
 					"settings":
 					{
@@ -204,8 +308,8 @@
 						"selection":
 						[
 							[
-								277,
-								225
+								0,
+								0
 							]
 						],
 						"settings":
@@ -219,7 +323,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "api/models/publication.js",
 					"settings":
 					{
@@ -245,7 +349,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "api/models/follow.js",
 					"settings":
 					{
@@ -271,7 +375,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "api/models/message.js",
 					"settings":
 					{
