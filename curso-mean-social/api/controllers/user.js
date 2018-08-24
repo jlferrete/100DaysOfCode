@@ -30,21 +30,37 @@ function saveUser(req,res){
 		user.role = 'ROLE_USER';
 		user.image = null;
 
-		bcrypt.hash(params.password, null, null, (err, hash) =>{
-			user.password = hash;
+		//Controlar usuarios duplicados
 
-			user.save((err, userStored) => {
-				if(err) return res.status(500).send({message: 'Error al guardar el usuario'});
+		User.find({$or: [
+					{email: user.email.toLowerCase()},
+					{nick: user.nick.toLowerCase()}
+			]}).exec((err, users) => {
+							if(err) return res.status(500).send({message: 'Error en la peticion de usuarios'});
 
-				if(userStored){
-					res.status(200).send({user: userStored});
-				}else{
-					res.status(404).send({message: 'No se ha registrado el usuario'});
-				}
-			});
-		});
+							if (users && users.length >= 1){
+								return res.status(200).send({message: 'El usuario que intenta registrar ya existe'});
+							}else{
 
-	}else{
+							//Cifrar la password y guardar los datos
+
+								bcrypt.hash(params.password, null, null, (err, hash) =>{
+									user.password = hash;
+
+									user.save((err, userStored) => {
+										if(err) return res.status(500).send({message: 'Error al guardar el usuario'});
+
+										if(userStored){
+											res.status(200).send({user: userStored});
+										}else{
+											res.status(404).send({message: 'No se ha registrado el usuario'});
+										}
+									});
+								});
+							}
+						});
+
+		}else{
 		res.status(200).send({
 			message: 'Envia todos los campos necesarios!!'
 		});
@@ -52,8 +68,35 @@ function saveUser(req,res){
 
 }
 
+
+function loginUser(req, res){
+	var params = req.body;
+
+	var email = params.email;
+	var password = params.password;
+
+	User.findOne({email: email}, (err, user) => {
+		if(err) return res.status(500).send({message: 'Error en la petición'});
+
+		if(user){
+			bcrypt.compare(password, user.password, (err, check) => {
+				if(check){
+					//devolver datos de usuario
+					user.password = undefined;
+					return res.status(200).send({user})
+				}else{
+					return res.status(404).send({message: 'El usuario no se ha podido identificar!!'});
+				}
+			});
+		}else{
+			return res.status(404).send({message: 'El usuario no se ha podido identificar!!'});
+		}
+	});
+}
+
 module.exports = {
 	home,
 	pruebas,
-	saveUser
+	saveUser,
+	loginUser
 }

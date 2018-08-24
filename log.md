@@ -124,3 +124,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:** Life is 10% what happens to you and 90% how you react to it.
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 14: August 24, 2018
+#####
+
+**Today's Progress**: Control duplicated user done, User Login. 
+
+**Thoughts:** People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
