@@ -133,3 +133,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:** People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 15: August 25, 2018
+#####
+
+**Today's Progress**: JWT tokens and authentication middleware. 
+
+**Thoughts:** Always bear in mind that your own resolution to succeed is more important than any one thing.
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)

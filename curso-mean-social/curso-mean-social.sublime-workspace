@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"password"
+			],
+			[
 				"Messa",
 				"MessageSchema"
 			],
@@ -47,7 +51,23 @@
 			"file": "api/controllers/user.js",
 			"settings":
 			{
-				"buffer_size": 1167,
+				"buffer_size": 2585,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/middlewares/authenticated.js",
+			"settings":
+			{
+				"buffer_size": 683,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/services/jwt.js",
+			"settings":
+			{
+				"buffer_size": 448,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,16 +75,8 @@
 			"file": "api/routes/user.js",
 			"settings":
 			{
-				"buffer_size": 285,
+				"buffer_size": 406,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/wamp/www/100-days-of-code/log.md",
-			"settings":
-			{
-				"buffer_size": 4438,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -124,8 +136,8 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/user.js",
 		"/C/wamp/www/100-days-of-code/log.md",
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/user.js",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/follow.js",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/package.json"
 	],
@@ -162,7 +174,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -222,15 +234,15 @@
 					"file": "api/controllers/user.js",
 					"settings":
 					{
-						"buffer_size": 1167,
+						"buffer_size": 2585,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1016,
-								1016
+								2163,
+								2163
 							]
 						],
 						"settings":
@@ -238,26 +250,26 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 36.0,
-						"translation.y": 513.0,
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "api/routes/user.js",
+					"file": "api/middlewares/authenticated.js",
 					"settings":
 					{
-						"buffer_size": 285,
+						"buffer_size": 683,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								285,
-								285
+								46,
+								46
 							]
 						],
 						"settings":
@@ -272,32 +284,59 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/wamp/www/100-days-of-code/log.md",
+					"file": "api/services/jwt.js",
 					"settings":
 					{
-						"buffer_size": 4438,
+						"buffer_size": 448,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4314,
-								4314
+								145,
+								79
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2280.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "api/routes/user.js",
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "api/models/user.js",
 					"settings":
 					{
@@ -323,7 +362,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "api/models/publication.js",
 					"settings":
 					{
@@ -349,7 +388,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "api/models/follow.js",
 					"settings":
 					{
@@ -375,7 +414,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "api/models/message.js",
 					"settings":
 					{
