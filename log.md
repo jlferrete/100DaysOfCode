@@ -142,3 +142,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:** Always bear in mind that your own resolution to succeed is more important than any one thing.
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 16: August 26, 2018
+#####
+
+**Today's Progress**: Return user data and user pagination with mongoose-pagination. 
+
+**Thoughts:** Everything you've ever wanted is on the other side of fear.
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
