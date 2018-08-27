@@ -151,3 +151,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:** Everything you've ever wanted is on the other side of fear.
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 17: August 27, 2018
+#####
+
+**Today's Progress**: Update user method. 
+
+**Thoughts:** All our dreams can come true, if we have the courage to pursue them.
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)

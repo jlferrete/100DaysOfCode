@@ -35,15 +35,23 @@
 			"file": "api/routes/user.js",
 			"settings":
 			{
-				"buffer_size": 543,
+				"buffer_size": 619,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/100-days-of-code/log.md",
+			"settings":
+			{
+				"buffer_size": 5714,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "api/controllers/user.js",
 			"settings":
 			{
-				"buffer_size": 3574,
+				"buffer_size": 4208,
 				"line_ending": "Windows"
 			}
 		}
@@ -116,7 +124,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -124,15 +132,15 @@
 					"file": "api/routes/user.js",
 					"settings":
 					{
-						"buffer_size": 543,
+						"buffer_size": 619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								460,
-								460
+								596,
+								596
 							]
 						],
 						"settings":
@@ -147,18 +155,44 @@
 				},
 				{
 					"buffer": 1,
-					"file": "api/controllers/user.js",
+					"file": "/C/wamp/www/100-days-of-code/log.md",
 					"settings":
 					{
-						"buffer_size": 3574,
+						"buffer_size": 5714,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
+								5588,
+								5588
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2907.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "api/controllers/user.js",
+					"settings":
+					{
+						"buffer_size": 4208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4161,
+								4161
 							]
 						],
 						"settings":
@@ -167,7 +201,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1938.0,
+						"translation.y": 2850.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
