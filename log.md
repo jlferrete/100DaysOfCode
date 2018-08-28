@@ -160,3 +160,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:** All our dreams can come true, if we have the courage to pursue them.
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 18: August 28, 2018
+#####
+
+**Today's Progress**: Section 5 done. Avatars and user images.
+
+**Thoughts:** I'm not a great programmer; I'm just a good programmer with great habits.
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
