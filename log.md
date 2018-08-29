@@ -169,3 +169,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:** I'm not a great programmer; I'm just a good programmer with great habits.
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 19: August 29, 2018
+#####
+
+**Today's Progress**: Section 6 started. Follow system, Controllers and routes. Follow user done.
+
+**Thoughts:** Starting section 6. Api 
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
