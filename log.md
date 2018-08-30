@@ -175,6 +175,15 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Today's Progress**: Section 6 started. Follow system, Controllers and routes. Follow user done.
 
-**Thoughts:** Starting section 6. Api 
+**Thoughts:** Starting section 6  
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 20: August 30, 2018
+#####
+
+**Today's Progress**: Unfollow users. List of followers and followed.
+
+**Thoughts:**  Section 6 class 33 done!
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
