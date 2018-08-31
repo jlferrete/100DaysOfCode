@@ -187,3 +187,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  Section 6 class 33 done!
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 21: August 31, 2018
+#####
+
+**Today's Progress**: List of followers and followed without pagination. Follow user? method.
+
+**Thoughts:**  Section 6 class 33 done!
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
