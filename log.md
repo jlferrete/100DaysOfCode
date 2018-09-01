@@ -196,3 +196,13 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  Section 6 class 33 done!
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+
+ ### Day 22: September 01, 2018
+#####
+
+**Today's Progress**: Beginning React 16 projects. Instalation and JavaScript review.
+
+**Thoughts:**  Section 2 class 11 done
+
+**Link to work:** [React 16 projects](https://github.com/jlferrete/100-days-of-code/tree/master/repasojs)
