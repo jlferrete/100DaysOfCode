@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"user",
+				"userId"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"get",
+				"getFollowingUsers"
+			],
+			[
 				"follo",
 				"followStored"
 			],
@@ -63,15 +75,7 @@
 			"file": "api/controllers/user.js",
 			"settings":
 			{
-				"buffer_size": 5965,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "api/controllers/follow.js",
-			"settings":
-			{
-				"buffer_size": 680,
+				"buffer_size": 6197,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,15 +83,23 @@
 			"file": "/C/wamp/www/100-days-of-code/log.md",
 			"settings":
 			{
-				"buffer_size": 6328,
+				"buffer_size": 6894,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/controllers/follow.js",
+			"settings":
+			{
+				"buffer_size": 2845,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "api/routes/follow.js",
 			"settings":
 			{
-				"buffer_size": 281,
+				"buffer_size": 629,
 				"line_ending": "Windows"
 			}
 		},
@@ -168,7 +180,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -202,15 +214,15 @@
 					"file": "api/controllers/user.js",
 					"settings":
 					{
-						"buffer_size": 5965,
+						"buffer_size": 6197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5949,
-								5949
+								3171,
+								3171
 							]
 						],
 						"settings":
@@ -219,51 +231,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4047.0,
+						"translation.y": 1824.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "api/controllers/follow.js",
-					"settings":
-					{
-						"buffer_size": 680,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								323,
-								323
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "/C/wamp/www/100-days-of-code/log.md",
 					"settings":
 					{
-						"buffer_size": 6328,
+						"buffer_size": 6894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6121,
-								6162
+								6719,
+								6719
 							]
 						],
 						"settings":
@@ -271,7 +257,34 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3363.0,
+						"translation.y": 3661.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "api/controllers/follow.js",
+					"settings":
+					{
+						"buffer_size": 2845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2429,
+								2429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1938.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -281,15 +294,15 @@
 					"file": "api/routes/follow.js",
 					"settings":
 					{
-						"buffer_size": 281,
+						"buffer_size": 629,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								281,
-								281
+								629,
+								629
 							]
 						],
 						"settings":
