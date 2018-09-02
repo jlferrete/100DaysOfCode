@@ -206,3 +206,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  Section 2 class 11 done
 
 **Link to work:** [React 16 projects](https://github.com/jlferrete/100-days-of-code/tree/master/repasojs)
+
+ ### Day 23: September 02, 2018
+#####
+
+**Today's Progress**: Section 6 Finished! Async and Await. Counters and Stats.
+
+**Thoughts:**  New day, new section done...
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)

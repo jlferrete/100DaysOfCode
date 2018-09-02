@@ -118,13 +118,45 @@ function getUser(req, res){
 
 		if(!user) return res.status(404).send({message: 'El usuario no existe'});
 
-		Follow.findOne({"user":req.user.sub, "followed":userId}).exec((err, follow) => {
-			if(err) return res.status(500).send({message: 'Error al comprobar el seguimiento'});
-			
-			return res.status(200).send({user, follow});
-		});
+		followThisUser(req.user.sub, userId).then((value) => {
+			user.password = undefined;
 
+			return res.status(200).send({
+				user, 
+				following: value.following,
+				followed: value.followed
+			});
+		});
+			
 	});
+}
+
+// Funcion asíncrona
+async function followThisUser(identity_user_id, user_id){
+    try {
+        var following = await Follow.findOne({ user: identity_user_id, followed: user_id}).exec()
+            .then((following) => {
+                console.log(following);
+                return following;
+            })
+            .catch((err)=>{
+                return handleerror(err);
+            });
+        var followed = await Follow.findOne({ user: user_id, followed: identity_user_id}).exec()
+            .then((followed) => {
+                console.log(followed);
+                return followed;
+            })
+            .catch((err)=>{
+                return handleerror(err);
+            });
+        return {
+            following: following,
+            followed: followed
+        }
+    } catch(e){
+        console.log(e);
+    }
 }
 
 //Devolver un listado de usuarios paginado
@@ -143,12 +175,111 @@ function getUsers(req, res){
 
 		if(!users) return res.status(404).send({message: 'No hay usuarios disponibles'});
 
-		return res.status(200).send({
-			users,
-			total,
-			pages: Math.ceil(total/itemsPerPage)
+		followUserIds(identity_user_id).then((value) => {
+
+			return res.status(200).send({
+				users,
+				users_following: value.following,
+				users_follow_me: value.followed,
+				total,
+				pages: Math.ceil(total/itemsPerPage)
+
+			});
+
+
 		});
 	});
+}
+
+//Función Asíncrona para getUsers
+
+async function followUserIds(user_id){
+
+try{
+    //Obtener los usuarios que seguimos          
+    //El select es para mostrar los campos que yo quiera
+    var following = await Follow.find({'user':user_id }).select({'_id':0, '__v':0, 'user': 0}).exec()
+        .then((following) =>{
+            var follows_clean = [];
+
+            following.forEach((follow) =>{
+                //console.log("followed", follow.followed);
+                //Guardar los usuarios que yo sigo
+                follows_clean.push(follow.followed);
+            });
+
+            return follows_clean;
+        })
+        .catch((err)=>{
+            return handleerror(err);
+        });
+
+    //Obtener los usuarios que seguimos          
+    //El select es para mostrar los campos que yo quiera
+    var followed = await Follow.find({'followed':user_id }).select({'_id':0, '__v':0, 'followed': 0}).exec()
+        .then((following) =>{
+            var follows_clean = [];
+
+            following.forEach((follow) =>{
+                //console.log("user", follow.user);
+                //Guardar los usuarios que yo sigo
+                follows_clean.push(follow.user);
+            });
+
+            return follows_clean;
+        })
+        .catch((err)=>{
+            return handleerror(err);
+        });
+
+    return {
+        following: following,
+        followed: followed
+    }
+}catch(e){
+    console.log(e);
+}
+    
+}
+
+function getCounters(req, res){
+	var userId = req.user.sub;
+	if(req.params.id){
+		userId = req.params.id;
+	}
+
+	getCountFollow(userId).then((value) => {
+		return res.status(200).send(value);
+	});
+
+}
+
+async function getCountFollow(user_id){
+	try{
+		var following = await Follow.count({"user":user_id}).exec()
+			.then(count=>{
+				return count;
+			})
+		.catch((err)=>{
+			return handleError(err);
+		});
+
+		var followed = await Follow.count({"followed":user_id}).exec()
+			.then(count=>{
+				return count;
+			})
+		.catch((err)=>{
+			return handleError(err);
+		});
+
+		return {
+			following:following,
+			followed:followed
+		}
+
+	}catch(e){
+		console.log(e);
+	}
 }
 
 //Edicion de datos de usuario
@@ -247,6 +378,7 @@ module.exports = {
 	loginUser,
 	getUser,
 	getUsers,
+	getCounters,
 	updateUser,
 	uploadImage,
 	getImageFile
