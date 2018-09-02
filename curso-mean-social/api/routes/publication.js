@@ -9,5 +9,6 @@ var multipart = require('connect-multiparty');
 var md_upload = multipart({ uploadDir: './uploads/publications'});
 
 api.get('/probando-pub', md_auth.ensureAuth, PublicationController.probando);
+api.post('/publication', md_auth.ensureAuth, PublicationController.savePublication);
 
 module.exports = api;
