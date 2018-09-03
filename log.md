@@ -215,3 +215,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  New day, new section done...
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100-days-of-code/tree/master/curso-mean-social)
+
+ ### Day 24: September 03, 2018
+#####
+
+**Today's Progress**: Timeline publication methods done.
+
+**Thoughts:**  Problems are not stop signs, they are guidelines.
+
+**Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-mean-social)
