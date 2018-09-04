@@ -69,8 +69,34 @@ function getPublications(req, res){
 	});
 }
 
+function getPublication(req, res){
+	var publicationId = req.params.id;
+
+	Publication.findById(publicationId, (err, publication) =>{
+		if(err) return res.status(500).send({message: 'Error devolver publicaciones'});
+
+		if(!publication) return res.status(404).send({message: 'No existe la publicación'});
+
+		return res.status(200).send({publication});
+	});
+}
+
+function deletePublication(req, res){
+	var publicationId = req.params.id;
+
+	Publication.find({'user': req.user.sub, '_id': publicationId}).remove(err => {
+		if(err) return res.status(500).send({message: 'Error al borrar publicaciones'});
+
+		// if(!publicationRemoved) return res.status(404).send({message: 'No se ha borrado la publicación'});
+
+		return res.status(200).send({message: 'Publicación eliminada correctamente'});
+	});
+}
+
 module.exports = {
 	probando,
 	savePublication,
-	getPublications
+	getPublications,
+	getPublication,
+	deletePublication
 }
