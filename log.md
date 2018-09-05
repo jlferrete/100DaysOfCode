@@ -233,3 +233,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  The secret of getting ahead is getting started.
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-mean-social)
+
+ ### Day 26: September 05, 2018
+#####
+
+**Today's Progress**: PHP-MVC Review. Lessons 1 - 8.
+
+**Thoughts:**  One small positive thought in the morning can change the entire outcome of your day!
+
+**Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-mvc)
