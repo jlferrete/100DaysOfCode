@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"getC",
+				"getCountFollow"
+			],
+			[
+				"follo",
+				"following"
+			],
+			[
 				"user",
-				"userId"
+				"user_id"
+			],
+			[
+				"iden",
+				"identity_user_id"
 			],
 			[
 				"fun",
@@ -14,10 +26,6 @@
 			[
 				"get",
 				"getFollowingUsers"
-			],
-			[
-				"follo",
-				"followStored"
 			],
 			[
 				"findBy",
@@ -63,54 +71,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "api/routes/user.js",
-			"settings":
-			{
-				"buffer_size": 911,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "api/controllers/user.js",
-			"settings":
-			{
-				"buffer_size": 6197,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/wamp/www/100-days-of-code/log.md",
-			"settings":
-			{
-				"buffer_size": 6894,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "api/controllers/follow.js",
-			"settings":
-			{
-				"buffer_size": 2845,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "api/routes/follow.js",
-			"settings":
-			{
-				"buffer_size": 629,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "api/app.js",
-			"settings":
-			{
-				"buffer_size": 431,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -123,7 +83,7 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 153.0
 	},
 	"distraction_free":
 	{
@@ -136,7 +96,12 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/app.js",
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/routes/follow.js",
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/controllers/follow.js",
 		"/C/wamp/www/100-days-of-code/log.md",
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/controllers/user.js",
+		"/C/wamp/www/100-days-of-code/curso-mean-social/api/routes/user.js",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/package.json",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/message.js",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/follow.js",
@@ -144,7 +109,6 @@
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/models/user.js",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/services/jwt.js",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/middlewares/authenticated.js",
-		"/C/wamp/www/100-days-of-code/curso-mean-social/api/app.js",
 		"/C/wamp/www/100-days-of-code/curso-mean-social/api/index.js"
 	],
 	"find":
@@ -180,167 +144,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "api/routes/user.js",
-					"settings":
-					{
-						"buffer_size": 911,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								911,
-								911
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "api/controllers/user.js",
-					"settings":
-					{
-						"buffer_size": 6197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3171,
-								3171
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1824.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/wamp/www/100-days-of-code/log.md",
-					"settings":
-					{
-						"buffer_size": 6894,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6719,
-								6719
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3661.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "api/controllers/follow.js",
-					"settings":
-					{
-						"buffer_size": 2845,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2429,
-								2429
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1938.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "api/routes/follow.js",
-					"settings":
-					{
-						"buffer_size": 629,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								629,
-								629
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "api/app.js",
-					"settings":
-					{
-						"buffer_size": 431,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								322,
-								322
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -397,7 +202,7 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 130.0,
