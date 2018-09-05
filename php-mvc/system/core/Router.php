@@ -48,7 +48,7 @@ class Router
    */
   public function setController()
   {
-    $this->controller = $this->uri[2] === '' ? 'Home' : $this->uri[2];
+    $this->controller = $this->uri[3] === '' ? 'Home' : $this->uri[3];
   }
 
   /**
@@ -56,7 +56,7 @@ class Router
    */
   public function setMethod()
   {
-    $this->method = ! empty($this->uri[3]) ? $this->uri[3] : 'exec';
+    $this->method = ! empty($this->uri[4]) ? $this->uri[4] : 'exec';
   }
 
   /**
@@ -64,7 +64,7 @@ class Router
    */
   public function setParam()
   {
-    $this->param = ! empty($this->uri[4]) ? $this->uri[4] : '';
+    $this->param = ! empty($this->uri[5]) ? $this->uri[5] : '';
   }
 
   /**
