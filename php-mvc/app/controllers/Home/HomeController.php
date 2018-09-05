@@ -5,11 +5,22 @@
 class HomeController extends Controller
 {
   /**
-  * Home controller
-  */
+   * string 
+   */
+  public $nombre;
+
+  /**
+   * array 
+   */
+  public $lenguajes_favoritos;
+
+  /**
+   * Inicializa render 
+   */
   public function __construct()
   {
-    var_dump(__CLASS__);
+    $this->nombre = 'Juan';
+    $this->lenguajes_favoritos = array('Javascript', 'Php');
   }
 
   /**
@@ -17,12 +28,26 @@ class HomeController extends Controller
   */
   public function exec()
   {
-    echo '<h1>Hola mundo!!!</h1>';
+    $this->show();
   }
 
-  public function saludo()
+  /**
+  * Método de ejemplo con parámetro
+  */
+  public function show()
   {
-    echo '<h1>Hola fans!</h1>';
+    $params = array('nombre' => $this->nombre, 'lenguajes' => $this->lenguajes_favoritos);
+    $this->render(__CLASS__, $params); 
   }
+
+  /**
+  * Método de ejemplo con parámetro
+  */
+  public function mostrar($param)
+  {
+    $this->show();
+    echo "Recibí el parámetro: {$param}"; 
+  }
+
 
 }
