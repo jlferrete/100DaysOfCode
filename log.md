@@ -242,3 +242,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  One small positive thought in the morning can change the entire outcome of your day!
 
 **Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-mvc)
+
+ ### Day 27: September 06, 2018
+#####
+
+**Today's Progress**: PHP-MVC Review. Lessons 9 - 16.
+
+**Thoughts:**  Project finished. Login done.
+
+**Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-mvc)

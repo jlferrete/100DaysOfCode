@@ -1,4 +1,6 @@
 <?php
+defined('BASEPATH') or exit('No se permite acceso directo');
+require_once ROOT . '/php-mvc/app/models/Home/HomeModel.php';
 /**
  * Home controller
  */
@@ -10,17 +12,17 @@ class HomeController extends Controller
   public $nombre;
 
   /**
-   * array 
+   * object 
    */
-  public $lenguajes_favoritos;
+  public $model;
 
   /**
-   * Inicializa render 
+   * Inicializa valores 
    */
   public function __construct()
   {
-    $this->nombre = 'Juan';
-    $this->lenguajes_favoritos = array('Javascript', 'Php');
+    $this->model = new HomeModel();
+    $this->nombre = 'Mundo';
   }
 
   /**
@@ -32,21 +34,22 @@ class HomeController extends Controller
   }
 
   /**
-  * Método de ejemplo con parámetro
+  * Método de ejemplo
   */
   public function show()
   {
-    $params = array('nombre' => $this->nombre, 'lenguajes' => $this->lenguajes_favoritos);
+    $params = array('nombre' => $this->nombre);
     $this->render(__CLASS__, $params); 
   }
 
   /**
-  * Método de ejemplo con parámetro
+  * Método de ejemplo con model. Obtiene un usuario segun ID
   */
-  public function mostrar($param)
+  public function usuario($param)
   {
+    $res = $this->model->getUser($param);
+    $this->nombre = $res['usuario_dev'];
     $this->show();
-    echo "Recibí el parámetro: {$param}"; 
   }
 
 

@@ -1,4 +1,5 @@
 <?php
+defined('BASEPATH') or exit('No se permite acceso directo');
 /**
  * Identificacion de la URI
  */
@@ -48,7 +49,7 @@ class Router
    */
   public function setController()
   {
-    $this->controller = $this->uri[3] === '' ? 'Home' : $this->uri[3];
+    $this->controller = $this->uri[3] === '' ? DEFAULT_CONTROLLER : $this->uri[3];
   }
 
   /**
@@ -60,11 +61,14 @@ class Router
   }
 
   /**
-   * Asigna el valor del parametro si existe
+   * Asigna el valor del parametro si existe segun el metodo de peticion
    */
   public function setParam()
   {
-    $this->param = ! empty($this->uri[5]) ? $this->uri[5] : '';
+    if(REQUEST_METHOD === 'POST')
+      $this->param = $_POST;
+    else if (REQUEST_METHOD === 'GET')
+      $this->param = ! empty($this->uri[5]) ? $this->uri[5] : '';
   }
 
   /**
