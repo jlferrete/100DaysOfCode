@@ -257,6 +257,15 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Today's Progress**: PHP-Agenda Part 1.
 
-**Thoughts:**  Project finished. Login done.
+**Thoughts:**  New project to practise PHP.
+
+**Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-agenda)
+
+ ### Day 29: September 08, 2018
+#####
+
+**Today's Progress**: PHP-Agenda Part 2.
+
+**Thoughts:**  Project done.
 
 **Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-agenda)
