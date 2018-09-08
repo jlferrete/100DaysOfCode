@@ -1,6 +1,6 @@
 <?php 
 
-if ( (isset($_GET['accion'])) && (isset($_GET['id'])) && ($_GET['accion'] == 'editar')) {
+if ( (isset($_GET['accion'])) && (isset($_GET['id'])) && (is_numeric($_GET['id'])) && ($_GET['accion'] == 'editar')) {
 
 	$id = $_GET['id'];
 
@@ -12,19 +12,19 @@ if ( (isset($_GET['accion'])) && (isset($_GET['id'])) && ($_GET['accion'] == 'ed
 
 	$accion = 'update';
 	
-}
-
-if ((isset($_GET['accion'])) && (isset($_GET['id'])) && ($_GET['accion'] == 'eliminar')) {
-
+}elseif ((isset($_GET['accion'])) && (isset($_GET['id'])) && (is_numeric($_GET['id'])) && ($_GET['accion'] == 'eliminar')) {
+    
     $id = $_GET['id'];
 
 	$agenda = Agenda::soloId($id);
 
 	$array = $agenda->delete();
-	
-	
-}
 
+}elseif (isset($_GET['res'])){
+
+    echo $_GET['res'];
+
+}
 
 
 

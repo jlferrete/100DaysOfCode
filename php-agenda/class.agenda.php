@@ -13,11 +13,11 @@ class Agenda{
 	public function __construct($nom, $dom, $tel, $com, $id = ''){
 		$db = new Conexion();
 
-		$this->nombre= $nom;
-		$this->domicilio = $dom;
-		$this->telefono = $tel;
-		$this->comentarios = $com;
-		$this->id = $id;
+		$this->nombre = $db->real_escape_string($nom);
+		$this->domicilio = $db->real_escape_string($dom);
+		$this->telefono = $db->real_escape_string($tel);
+		$this->comentarios = $db->real_escape_string($com);
+		$this->id = $db->real_escape_string($id);
 	}
 
 	static function ningunDato(){
