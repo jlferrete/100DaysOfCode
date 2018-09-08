@@ -12,8 +12,13 @@ include 'get.php';
 <head>
 	<meta charset="utf-8">
 	<title>Mi Agenda</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
 </head>
 <body>
+<header><a href="index.php"><h1>Mi agenda</h1></a></header>
 
 <form action="post.php" method="post">
 
@@ -34,6 +39,6 @@ include 'get.php';
 
 <?php include 'tabla.php'; ?>
 
-
+<footer><small>Realizado por: JlFerrete</small></footer>
 </body>
 </html> 

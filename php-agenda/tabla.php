@@ -19,8 +19,8 @@ while ($row = $datos->fetch_array()) {
 	echo '<td>',$row['domicilio'] ,'</td>';
 	echo '<td>',$row['telefono'] ,'</td>';
 	echo '<td>',$row['comentarios'] ,'</td>';
-	echo "<td> <a href=\"index.php?accion=editar&&id=$row[id]\">Editar</a> </td>";
-	echo "<td> <a href=\"index.php?accion=eliminar&&id=$row[id]\">Eliminar</a> </td>";
+	echo "<td> <a class=\"icon-pencil\" href=\"index.php?accion=editar&&id=$row[id]\"></a> </td>";
+	echo "<td> <a class=\"icon-cross\" href=\"index.php?accion=eliminar&&id=$row[id]\"></a> </td>";
 
 	echo '</tr>';
 }
