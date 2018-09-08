@@ -1,31 +1,39 @@
-<?php
-
+<?php 
 include 'class.agenda.php';
-/* include 'config/class.conexion.php';
+$datos = array('nombre'=>'', 'domicilio'=>'', 'telefono'=>'', 'comentarios'=>'Comentarios', 'id'=>'');
+$accion = 'insert';
+include 'get.php';
 
-$db = new Conexion(); */
 
-?>
+ ?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mi agenda</title>
+	<meta charset="utf-8">
+	<title>Mi Agenda</title>
 </head>
 <body>
-    <form action="post.php" method="post">
-        <input type="text" name="nombre" placeholder="Nombre" required="required">
-        <input type="text" name="domicilio" placeholder="Calle y número" required="required">
-        <input type="text" name="telefono" placeholder="Teléfono" required="required">
-        <textarea name="comentarios" required="required">Comentarios</textarea>
-        <input type="hidden" name="accion" value="insert">
-        <input type="submit" name="submit" " value="submit">
-    </form>
 
-    <?php include 'tabla.php';  ?>
-    
+<form action="post.php" method="post">
+
+	<div class="icon-user-plus"></div>
+
+	<input type="text" name="nombre" value="<?php echo $datos['nombre']; ?>" placeholder="Nombre" required="requiered">
+
+	<input type="text" name="domicilio" value="<?php echo $datos['domicilio']; ?>" placeholder="Calle y número" required="requiered">
+
+	<input type="text" name="telefono"  value="<?php echo $datos['telefono']; ?>"placeholder="Teléfono" required="requiered">
+
+	<textarea name="comentarios" required="requiered"> <?php echo $datos['comentarios']; ?></textarea>
+
+	<input type="hidden" name="id" value="<?php  echo $datos['id']?>">
+	<input type="hidden" name="accion" value="<?php  echo $accion?>">
+	<input type="submit" name="submit" value="Enviar">
+</form>
+
+<?php include 'tabla.php'; ?>
+
+
 </body>
-</html>
+</html> 

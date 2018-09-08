@@ -12,22 +12,21 @@ $agenda = Agenda::ningunDato();
 
 $datos = $agenda->select();
 
-while ($row = $datos->fetch_array()){
+while ($row = $datos->fetch_array()) {
+	
+	echo '<tr>';
+	echo '<td>',$row['nombre'] ,'</td>';
+	echo '<td>',$row['domicilio'] ,'</td>';
+	echo '<td>',$row['telefono'] ,'</td>';
+	echo '<td>',$row['comentarios'] ,'</td>';
+	echo "<td> <a href=\"index.php?accion=editar&&id=$row[id]\">Editar</a> </td>";
+	echo "<td> <a href=\"index.php?accion=eliminar&&id=$row[id]\">Eliminar</a> </td>";
 
-    echo '<tr>';
-    echo '<td>'.$row['nombre'].'</td>';
-    echo '<td>'.$row['domicilio'].'</td>';
-    echo '<td>'.$row['telefono'].'</td>';
-    echo '<td>'.$row['comentarios'].'</td>';
-    echo "<td> <a href=\"get.php?accion=editar\">Editar</a> </td>";
-    echo "<td> <a href=\"get.php?accion=eliminar\">Eliminar</a> </td>";
-
-    echo '</tr>';
+	echo '</tr>';
 }
 
 
-?>
-
+ ?>
 
 </table>
 

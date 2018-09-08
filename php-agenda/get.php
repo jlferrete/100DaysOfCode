@@ -1,11 +1,31 @@
-<?php
+<?php 
 
-if( (isset($_GET['accion'])) && ($_GET['accion'] == 'editar')) {
-   echo 'CONTINUAR EN VIDEO 7 6:11'; 
+if ( (isset($_GET['accion'])) && (isset($_GET['id'])) && ($_GET['accion'] == 'editar')) {
 
+	$id = $_GET['id'];
+
+	$agenda = Agenda::soloId($id);
+
+	$array = $agenda->selectId();
+
+	$datos = $array->fetch_array();
+
+	$accion = 'update';
+	
 }
 
-if( (isset($_GET['accion'])) && ($_GET['accion'] == 'eliminar')) {
-    echo 'CONTINUAR EN VIDEO 7 6:11'; 
- }
+if ((isset($_GET['accion'])) && (isset($_GET['id'])) && ($_GET['accion'] == 'eliminar')) {
+
+    $id = $_GET['id'];
+
+	$agenda = Agenda::soloId($id);
+
+	$array = $agenda->delete();
+	
+	
+}
+
+
+
+
 ?>
