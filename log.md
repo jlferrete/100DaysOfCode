@@ -269,3 +269,13 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  Project done.
 
 **Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-agenda)
+
+ ### Day 30: September 09, 2018
+#####
+
+**Today's Progress**: Two courses done!! Wordpress plugin creation and PHP OPP course from Boluda.com done.
+
+**Thoughts:**  Great job today!
+
+**Link to work:** [PHP-OOP ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-oop)
+[Curso-plugin-wp ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-plugin-wp)
