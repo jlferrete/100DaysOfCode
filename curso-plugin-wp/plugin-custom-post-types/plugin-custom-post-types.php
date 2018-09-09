@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Plugin-libros
+Plugin Name: Plugin Custom post types
 Plugin URI: https://github.com/jlferrete
 Description: Este plugin servirá para ver como funcionan los Custom Post Types
 Version: 0.0.1
 Author: JlFerrete
-Author URI: https://jlferrete.com
+Author URI: https://github.com/jlferrete
 License: GPL 2+
 */
 
