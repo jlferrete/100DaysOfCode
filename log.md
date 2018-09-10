@@ -279,3 +279,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [PHP-OOP ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-oop)
 [Curso-plugin-wp ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-plugin-wp)
+
+ ### Day 31: September 10, 2018
+#####
+
+**Today's Progress**: Review of PHP-SQL+OOP.
+
+**Thoughts:**  Trying to install Laravel too.
+
+**Link to work:** [PHP-SQL+OOP ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-sql%2Boop)
