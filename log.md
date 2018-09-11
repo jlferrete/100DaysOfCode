@@ -288,3 +288,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  Trying to install Laravel too.
 
 **Link to work:** [PHP-SQL+OOP ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-sql%2Boop)
+
+ ### Day 32: September 11, 2018
+#####
+
+**Today's Progress**: Learning laravel. Introductory Course done!.
+
+**Thoughts:**  New Job!!.
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
