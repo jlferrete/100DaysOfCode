@@ -297,3 +297,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  New Job!!.
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+ ### Day 33: September 12, 2018
+#####
+
+**Today's Progress**: Laravel course bought. Sections 1 to 5 done!
+
+**Thoughts:**  29 videos today!
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)

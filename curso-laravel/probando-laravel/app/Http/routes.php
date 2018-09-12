@@ -48,3 +48,23 @@ Route::get('/contacto/{nombre?}/{edad?}', function($nombre = "José Luis", $edad
 ]);
 
 
+
+Route::group(['prefix' => 'fruteria'], function(){
+
+	Route::get('/frutas', 'FrutasController@getIndex');
+	Route::get('/naranjas/{admin?}', [ 	'middleware' => 'EsAdmin',
+								'uses' => 'FrutasController@getNaranjas',
+								'as' => 'naranjitas',
+							]);
+
+	Route::get('/peras', 'FrutasController@anyPeras');
+
+
+});
+
+
+Route::post('/recibir', 'FrutasController@recibirFormulario');
+
+
+//Controlador RESTFul (No funciona en Laravel 5.3 y posteriores)
+//Route::controller('frutas', 'FrutasController');
