@@ -306,3 +306,13 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  29 videos today!
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+ ### Day 34: September 13, 2018
+#####
+
+**Today's Progress**: Laragon installed on virtual machine. Project replicated.
+
+**Thoughts:**  Laragon is so easy to install and you can avoid all Visual C++ problems in Wamp.
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
