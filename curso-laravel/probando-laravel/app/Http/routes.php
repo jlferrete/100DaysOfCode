@@ -68,3 +68,5 @@ Route::post('/recibir', 'FrutasController@recibirFormulario');
 
 //Controlador RESTFul (No funciona en Laravel 5.3 y posteriores)
 //Route::controller('frutas', 'FrutasController');
+
+Route::controller('notas', 'NotesController');
