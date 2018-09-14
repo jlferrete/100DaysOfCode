@@ -316,3 +316,12 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
+ ### Day 35: September 14, 2018
+#####
+
+**Today's Progress**: Migrations, seeds, and Query builder
+
+**Thoughts:**  Laragon is so easy to install and you can avoid all Visual C++ problems in Wamp.
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
