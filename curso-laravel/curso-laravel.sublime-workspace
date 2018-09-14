@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"form\tTag"
+			],
+			[
 				"in",
 				"input\tTag"
 			],
 			[
 				"l",
 				"label\tTag"
-			],
-			[
-				"for",
-				"form\tTag"
 			],
 			[
 				"naraja",
@@ -28,19 +28,37 @@
 	"buffers":
 	[
 		{
-			"file": "probando-laravel/app/Http/Controllers/FrutasController.php",
+			"file": "probando-laravel/app/Http/Controllers/NotesController.php",
 			"settings":
 			{
-				"buffer_size": 631,
+				"buffer_size": 1860,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "probando-laravel/resources/views/frutas/index.blade.php",
+			"file": "probando-laravel/resources/views/notes/saveNote.blade.php",
 			"settings":
 			{
-				"buffer_size": 592,
+				"buffer_size": 542,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "probando-laravel/resources/views/notes/note.blade.php",
+			"settings":
+			{
+				"buffer_size": 109,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "probando-laravel/resources/views/notes/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 514,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -49,25 +67,7 @@
 			"file": "probando-laravel/app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 1610,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "probando-laravel/app/Http/Middleware/EsAdmin.php",
-			"settings":
-			{
-				"buffer_size": 567,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "probando-laravel/app/Http/Kernel.php",
-			"settings":
-			{
-				"buffer_size": 1597,
+				"buffer_size": 1658,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -108,22 +108,29 @@
 		"/C/wamp64/www/curso-laravel",
 		"/C/wamp64/www/curso-laravel/probando-laravel",
 		"/C/wamp64/www/curso-laravel/probando-laravel/app",
-		"/C/wamp64/www/curso-laravel/probando-laravel/app/Http",
-		"/C/wamp64/www/curso-laravel/probando-laravel/app/Http/Middleware",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/contacto",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/frutas",
-		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/layouts"
+		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/layouts",
+		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/notes"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/curso-laravel/probando-laravel/database/migrations/2018_09_14_062129_create_frutas_table.php",
+		"/C/wamp64/www/curso-laravel/probando-laravel/database/migrations/2018_09_14_062910_add_field_frutas.php",
+		"/C/wamp64/www/curso-laravel/probando-laravel/database/seeds/rellenaNotes.php",
+		"/C/wamp64/www/curso-laravel/probando-laravel/composer.json",
+		"/C/wamp64/www/curso-laravel/probando-laravel/app/Http/Kernel.php",
+		"/C/wamp64/www/curso-laravel/probando-laravel/app/Http/Middleware/EsAdmin.php",
+		"/C/wamp64/www/curso-laravel/probando-laravel/app/Http/routes.php",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/frutas/index.blade.php",
+		"/C/wamp64/www/curso-laravel/probando-laravel/app/Http/Controllers/FrutasController.php",
+		"/C/wamp64/www/curso-laravel/probando-laravel/.env",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/hola-mundo.blade.php",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/layouts/master.blade.php",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/contacto/cabecera.blade.php",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/contacto/contacto.blade.php",
-		"/C/wamp64/www/curso-laravel/probando-laravel/app/Http/routes.php",
 		"/C/wamp64/www/curso-laravel/probando-laravel/resources/views/contacto.blade.php"
 	],
 	"find":
@@ -164,19 +171,47 @@
 			[
 				{
 					"buffer": 0,
-					"file": "probando-laravel/app/Http/Controllers/FrutasController.php",
+					"file": "probando-laravel/app/Http/Controllers/NotesController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 631,
+						"buffer_size": 1860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								631,
-								631
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "probando-laravel/resources/views/notes/saveNote.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
 							]
 						],
 						"settings":
@@ -187,24 +222,52 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "probando-laravel/resources/views/frutas/index.blade.php",
+					"buffer": 2,
+					"file": "probando-laravel/resources/views/notes/note.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 592,
+						"buffer_size": 109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								327,
-								327
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "probando-laravel/resources/views/notes/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								473,
+								473
 							]
 						],
 						"settings":
@@ -219,20 +282,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "probando-laravel/app/Http/routes.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1610,
+						"buffer_size": 1658,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1427,
-								1427
+								1630,
+								1630
 							]
 						],
 						"settings":
@@ -241,67 +304,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "probando-laravel/app/Http/Middleware/EsAdmin.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 567,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								558,
-								558
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "probando-laravel/app/Http/Kernel.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1597,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								839,
-								839
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
