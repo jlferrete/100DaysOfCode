@@ -8,8 +8,6 @@
 		<form action="{{ route('saveVideo') }}" method="post" enctype="multipart/form-data" class="col-lg-7">
 			<!-- Problema con {!! csrf_field() !!} -->
 
-			{!! csrf_field() !!}
-
 			<!-- Fin problema -->
 			
 
