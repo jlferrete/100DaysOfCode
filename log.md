@@ -342,3 +342,21 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  Rest in peace, Grandma.
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+ ### Day 38: September 17, 2018
+#####
+
+**Today's Progress**: Continue Fixing {!! csrf_field() !!} issues.
+
+**Thoughts:**  
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+ ### Day 39: September 18, 2018
+#####
+
+**Today's Progress**: Working on DB storage problems.
+
+**Thoughts:**  Happy sad birthday
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
