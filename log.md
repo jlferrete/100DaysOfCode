@@ -234,8 +234,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Mean Stack social network ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-mean-social)
 
- ### Day 26: September 05, 2018
-#####
+### Day 26: September 05, 2018
 
 **Today's Progress**: PHP-MVC Review. Lessons 1 - 8.
 
@@ -243,8 +242,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-mvc)
 
- ### Day 27: September 06, 2018
-#####
+### Day 27: September 06, 2018
 
 **Today's Progress**: PHP-MVC Review. Lessons 9 - 16.
 
@@ -252,8 +250,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-mvc)
 
- ### Day 28: September 07, 2018
-#####
+### Day 28: September 07, 2018
 
 **Today's Progress**: PHP-Agenda Part 1.
 
@@ -261,8 +258,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-agenda)
 
- ### Day 29: September 08, 2018
-#####
+### Day 29: September 08, 2018
 
 **Today's Progress**: PHP-Agenda Part 2.
 
@@ -270,8 +266,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [PHP-MVC ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-agenda)
 
- ### Day 30: September 09, 2018
-#####
+### Day 30: September 09, 2018
 
 **Today's Progress**: Two courses done!! Wordpress plugin creation and PHP OPP course from Boluda.com done.
 
@@ -280,8 +275,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Link to work:** [PHP-OOP ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-oop)
 [Curso-plugin-wp ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-plugin-wp)
 
- ### Day 31: September 10, 2018
-#####
+### Day 31: September 10, 2018
 
 **Today's Progress**: Review of PHP-SQL+OOP.
 
@@ -289,8 +283,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [PHP-SQL+OOP ](https://github.com/jlferrete/100DaysOfCode/tree/master/php-sql%2Boop)
 
- ### Day 32: September 11, 2018
-#####
+### Day 32: September 11, 2018
 
 **Today's Progress**: Learning laravel. Introductory Course done!.
 
@@ -298,8 +291,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
- ### Day 33: September 12, 2018
-#####
+### Day 33: September 12, 2018
 
 **Today's Progress**: Laravel course bought. Sections 1 to 5 done!
 
@@ -307,8 +299,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
- ### Day 34: September 13, 2018
-#####
+### Day 34: September 13, 2018
 
 **Today's Progress**: Laragon installed on virtual machine. Project replicated.
 
@@ -316,8 +307,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
- ### Day 35: September 14, 2018
-#####
+### Day 35: September 14, 2018
 
 **Today's Progress**: Migrations, seeds, and Query builder. Project Finished.
 
@@ -325,8 +315,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
- ### Day 36: September 15, 2018
-#####
+### Day 36: September 15, 2018
 
 **Today's Progress**: New project: Youtube-Mini. Section 9 completed. DB, Eloquent ORM, Login and Register finished. 
 
@@ -334,8 +323,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
- ### Day 37: September 16, 2018
-#####
+### Day 37: September 16, 2018
 
 **Today's Progress**: Fixing {!! csrf_field() !!} issues.
 
@@ -343,8 +331,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
- ### Day 38: September 17, 2018
-#####
+### Day 38: September 17, 2018
 
 **Today's Progress**: Continue Fixing {!! csrf_field() !!} issues.
 
@@ -352,11 +339,19 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
- ### Day 39: September 18, 2018
-#####
+### Day 39: September 18, 2018
 
 **Today's Progress**: Working on DB storage problems.
 
 **Thoughts:**  Happy sad birthday
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+### Day 40: September 19, 2018
+
+**Today's Progress**: Working on DB storage problems. DB don't save registers. Waiting for Udemy teacher's response.
+
+**Thoughts:**  
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
