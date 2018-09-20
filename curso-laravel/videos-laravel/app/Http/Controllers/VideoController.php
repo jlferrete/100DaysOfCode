@@ -21,6 +21,11 @@ class VideoController extends Controller
 
     public function saveVideo(Request $request){
 
+        //Comprobar lo que llega a través de request
+
+        dd($request);
+        die();
+
         //Validar formulario con Laravel
 
         //He reducido las opciones de validación a la espera de respuesta del instructor de Udemy.
