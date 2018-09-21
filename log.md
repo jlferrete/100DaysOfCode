@@ -363,3 +363,11 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
+### Day 42: September 21, 2018
+
+**Today's Progress**: Laravel + Vue CRUD and Login
+
+**Thoughts:**  https://www.youtube.com/playlist?list=PLhCiuvlix-rSduJ-vKGpPj5xxcmeLabXc
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
