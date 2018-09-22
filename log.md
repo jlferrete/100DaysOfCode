@@ -371,3 +371,11 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
+### Day 43: September 22, 2018
+
+**Today's Progress**: API Authentication in Laravel-Vue SPA using Jwt-auth
+
+**Thoughts:**  https://codeburst.io/api-authentication-in-laravel-vue-spa-using-jwt-auth-d8251b3632e0
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
