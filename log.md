@@ -387,3 +387,10 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
+### Day 45: September 24, 2018
+
+**Today's Progress**:  Renderización de listas VUEjs - V-FOR
+
+**Thoughts:**  https://www.youtube.com/watch?v=_RKC6a8-Ic0&t=98s
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
