@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>VUEjs V2 V-BIND | Rimorsoft Online </title>
+</head>
+<body>
+
+    <div id="main">
+       <input type="text" v-model="info">
+       <p v-bind:title="info">Texto de relleno.... {{ info }}</p>
+
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.0/vue.js"></script>
+
+    <script type="text/javascript">
+        new Vue({
+            el: '#main',
+            data: {
+                info: ''
+            }
+          
+        });
+    </script>
+
+</body>
+</html>
