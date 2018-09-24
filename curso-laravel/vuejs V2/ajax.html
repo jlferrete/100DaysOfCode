@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>VUEjs AJAX | Rimorsoft Online </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div id="main" class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>Lista VUEjs - AJAX</h1>
+                <ul class="list-group">
+                    <li v-for="item in lists" class="list-group-item">
+                        {{ item.name }}
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-8">
+                <h1>JSON</h1>
+                <pre>
+                    {{ $data | json }}
+                </pre>
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.0/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.3.1/vue-resource.min.js"></script>
+
+    <script type="text/javascript">
+        //var urlUsers = 'https://randomuser.me/api/?results=10';
+        var urlUsers = 'https://jsonplaceholder.typicode.com/users';
+        new Vue({
+            el: '#main',
+            created: function() {
+               this.getUsers(); 
+            },
+            data: {
+                lists: []
+            },
+            methods: {
+                getUsers: function(){
+                    this.$http.get(urlUsers).then(function(response){
+                        this.lists = response.data;
+                    });
+                }
+            }
+
+          
+        });
+    </script>
+
+</body>
+</html>
