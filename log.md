@@ -402,3 +402,11 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+### Day 47: September 26, 2018
+
+**Today's Progress**:  Teoria sobre VUEjs Part 2
+
+**Thoughts:**  
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
