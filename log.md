@@ -410,3 +410,28 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+### Day 48: September 27, 2018
+
+**Today's Progress**:  Teoria sobre VUEjs Part 3
+
+**Thoughts:**  
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+### Day 49: September 28, 2018
+
+**Today's Progress**:  SOAP-Laravel Integration
+
+**Thoughts:**  
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
+### Day 50: September 29, 2018
+
+**Today's Progress**:  Dynamics NAV-Axios-Laravel Integration
+
+**Thoughts:**  
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+
