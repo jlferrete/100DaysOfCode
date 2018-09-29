@@ -423,7 +423,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Today's Progress**:  SOAP-Laravel Integration
 
-**Thoughts:**  
+**Thoughts:**  Project uploaded to private repository in Bitbucket.
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
