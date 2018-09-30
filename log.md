@@ -435,3 +435,10 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
 
+### Day 51: September 30, 2018
+
+**Today's Progress**:  Using Axios to Consume APIs
+
+**Thoughts:**  
+
+**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
