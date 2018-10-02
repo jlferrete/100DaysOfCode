@@ -425,7 +425,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Thoughts:**  Project uploaded to private repository in Bitbucket.
 
-**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+**Link to work:** [SOAP ]()
 
 ### Day 50: September 29, 2018
 
@@ -433,7 +433,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Thoughts:**  Project uploaded to private repository in Bitbucket.
 
-**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+**Link to work:** [Axios ]()
 
 ### Day 51: September 30, 2018
 
@@ -441,4 +441,20 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Thoughts:**  Project uploaded to private repository in Bitbucket.
 
-**Link to work:** [Laravel ](https://github.com/jlferrete/100DaysOfCode/tree/master/curso-laravel)
+**Link to work:** [Axios ]()
+
+### Day 52: October 1, 2018
+
+**Today's Progress**:  Using Axios to Consume APIs (2)
+
+**Thoughts:**  Project uploaded to private repository in Bitbucket.
+
+**Link to work:** [Axios ]()
+
+### Day 53: October 2, 2018
+
+**Today's Progress**:  Using NTML-SOAP to connect Laravel and Dynamics NAV
+
+**Thoughts:**  Project uploaded to private repository in Bitbucket.
+
+**Link to work:** [NTML-SOAP ]()
