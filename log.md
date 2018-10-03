@@ -458,3 +458,11 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**  Project uploaded to private repository in Bitbucket.
 
 **Link to work:** [NTML-SOAP ]()
+
+### Day 54: October 3, 2018
+
+**Today's Progress**:  Online App Shop Laravel 5.5
+
+**Thoughts:**  
+
+**Link to work:** [App-Shop](https://github.com/jlferrete/app-shop)
