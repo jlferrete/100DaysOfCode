@@ -461,7 +461,7 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 ### Day 54: October 3, 2018
 
-**Today's Progress**:  Online App Shop Laravel 5.5
+**Today's Progress**:  Online Shop App Laravel 5.5
 
 **Thoughts:**  
 
