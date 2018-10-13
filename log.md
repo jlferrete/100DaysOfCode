@@ -527,6 +527,6 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 
 **Today's Progress**:  Online Shop App Laravel 5.5
 
-**Thoughts:**  
+**Thoughts:**
 
-**Link to work:** [App-Shop](https://github.com/jlferrete/app-shop)
+**Link to work:** [App-Shop](https://github.com/jlferrete/app-shop) 
