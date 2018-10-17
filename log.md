@@ -538,3 +538,27 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**
 
 **Link to work:** [App-Shop](https://github.com/jlferrete/master-php)
+
+### Day 64: October 15, 2018
+
+**Today's Progress**:  Working on private repository
+
+**Thoughts:**
+
+**Link to work:** [App-Shop](https://github.com/jlferrete/master-php)
+
+### Day 65: October 16, 2018
+
+**Today's Progress**:  Working on private repository
+
+**Thoughts:**
+
+**Link to work:** [App-Shop](https://github.com/jlferrete/master-php)
+
+### Day 63: October 17, 2018
+
+**Today's Progress**:  Working on private repository
+
+**Thoughts:**
+
+**Link to work:** [App-Shop](https://github.com/jlferrete/master-php)
