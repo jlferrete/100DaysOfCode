@@ -626,3 +626,11 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**
 
 **Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
+
+### Day 75: October 25, 2018
+
+**Today's Progress**:  New Project: POS system PHP7
+
+**Thoughts:**
+
+**Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
