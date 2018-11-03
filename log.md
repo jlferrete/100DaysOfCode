@@ -634,3 +634,75 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**
 
 **Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
+
+### Day 76: October 26, 2018
+
+**Today's Progress**:  Working on POS system PHP7
+
+**Thoughts:**
+
+**Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
+
+### Day 77: October 27, 2018
+
+**Today's Progress**:  Working on POS system PHP7
+
+**Thoughts:**
+
+**Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
+
+### Day 78: October 28, 2018
+
+**Today's Progress**:  Working on POS system PHP7
+
+**Thoughts:**
+
+**Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
+
+### Day 79: October 29, 2018
+
+**Today's Progress**:  Working on POS system PHP7
+
+**Thoughts:**
+
+**Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
+
+### Day 80: October 30, 2018
+
+**Today's Progress**:  Working on POS system PHP7
+
+**Thoughts:**
+
+**Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
+
+### Day 81: October 31, 2018
+
+**Today's Progress**:  Working on POS system PHP7
+
+**Thoughts:**
+
+**Link to work:** [POS-System](https://github.com/jlferrete/100DaysOfCode/tree/master/pos)
+
+### Day 82: November 1, 2018
+
+**Today's Progress**:  Working on private project for my job
+
+**Thoughts:**
+
+**Link to work:** [PRIVATE]
+
+### Day 83: November 2, 2018
+
+**Today's Progress**:  Working on private project for my job
+
+**Thoughts:**
+
+**Link to work:** [PRIVATE]
+
+### Day 84: November 3, 2018
+
+**Today's Progress**:  SweetAlert + Laravel 5.5
+
+**Thoughts:**
+
+**Link to work:** [SweetAlert] (https://github.com/jlferrete/100DaysOfCode/tree/master/sweetalert)
