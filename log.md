@@ -714,3 +714,27 @@ https://stackoverflow.com/questions/30405960/laravel-5-validating-mime-types
 **Thoughts:**
 
 **Link to work:** [SweetAlert] (https://github.com/jlferrete/100DaysOfCode/tree/master/sweetalert)
+
+### Day 86: November 5, 2018
+
+**Today's Progress**:  SweetAlert + Laravel 5.5
+
+**Thoughts:** Hosted in private repository
+
+**Link to work:** [SweetAlert] (https://github.com/jlferrete/100DaysOfCode/tree/master/sweetalert)
+
+### Day 87: November 6, 2018
+
+**Today's Progress**:  SweetAlert + Laravel 5.5
+
+**Thoughts:** Hosted in private repository
+
+**Link to work:** [SweetAlert] (https://github.com/jlferrete/100DaysOfCode/tree/master/sweetalert)
+
+### Day 88: November 7, 2018
+
+**Today's Progress**:  SweetAlert + Laravel 5.5
+
+**Thoughts:** Hosted in private repository
+
+**Link to work:** [SweetAlert] (https://github.com/jlferrete/100DaysOfCode/tree/master/sweetalert)
